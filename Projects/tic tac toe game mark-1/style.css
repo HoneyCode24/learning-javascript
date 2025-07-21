@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.outer_container{
+    /* padding: 20px; */
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;         /* stack items vertically */
+    justify-content: center;        /* center vertically */
+    align-items: center;            /* center horizontally */
+    gap: 20px;  
+}
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20px; */
+}
+h1{
+    /* margin: 20px; */
+    text-decoration: underline;
+    font-weight: bolder;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 70vh;
+    width: 70vh;
+    gap: 2%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+}
+.box{
+    background-color: rgb(240, 234, 225);
+    height: 32%;
+    width: 32%;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: black;
+    font-size: 85px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.start_btn{
+    background-color: black;
+    color: aliceblue;
+    font-size: large;
+    height: 8vh;
+    width: 50vh ;
+    /* margin: 20px; */
+    border-radius: 20px;
+}
+.message_box{
+    background-color: black;
+    color: aliceblue;
+    font-size: large;
+    height: auto;
+    width: 80vh ;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 30px;
+}
