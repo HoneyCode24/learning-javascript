@@ -11,16 +11,6 @@ This repository is where I document everything I learn daily — from the basics
 |-----|----------------|
 | 01  | Hello World 🌍 | 
 | ... | Coming Soon 🚧 | 
-> 🛠 I update this repository **daily** with well-structured folders, clean code, and learning notes.
-
----
-
-## 📌 Why This Journey?
-
-I believe in **learning in public** — sharing my growth not only helps me stay accountable but also helps others starting their journey.
-
-Whether you're a beginner or just curious, feel free to **fork, star ⭐, or follow** along!
-
 ---
 
 ## 🛠 Tech Stack
@@ -42,3 +32,4 @@ Whether you're a beginner or just curious, feel free to **fork, star ⭐, or fol
 
 Thank you for visiting!  
 Stay curious. Stay consistent. 🌱
+

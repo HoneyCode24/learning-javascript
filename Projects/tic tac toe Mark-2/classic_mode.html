@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic</title>
+    <link rel="stylesheet" href="classic_style.css">
+</head>
+<body>
+    <div id="tsparticles"></div>
+    <div class="bg">
+        <div id="particles-js"></div>
+        <header>
+            <div class="navbar">
+                <h1>TicTacPro</h1>
+                <div class="link_container">
+                    <a href="#" id="current">Classic AI</a>
+                    <a href="#">Multiplayer</a>
+                    <a href="#">Time Attack</a>
+                    <a href="#">Battel Mode</a>
+                    <a href="#">Challenge Mode</a>
+                    <span></span>
+                </div>
+                <div class="login">
+                    <button>Sign in</button>
+                    <button>Login</button>
+                </div>
+            </div>
+        </header>
+        <div class="hero">
+            <h1>Play Classic Mode</h1>
+            <h2>Choose your challenge. Beat the AI.</h2>
+            <h3>Select Difficulty.</h3>
+            <div class="levels">
+                <button class="box" id="easy">
+                    <img src="image/easy_img.png" alt="">
+                    <h2>Chill Game.</h2>
+                    <h2>Great for warming up.</h2>
+                </button>
+                <div class="box" id="medium">
+                    <img src="image/medium_img.png" alt="">
+                    <h2>Think Twice.</h2>
+                    <h2> It's tricky.</h2>
+                </div>
+                <div class="box" id="hard">
+                    <img src="image/hard_img.png" alt="">
+                    <h2>No mercy.</h2>
+                    <h2>AI plays to win!</h2>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+            "number": {
+                "value": 50
+            },
+            "color": {
+                "value": "#aaaaaa"
+            },
+            "shape": {
+                "type": "circle"
+            },
+            "opacity": {
+                "value": 0.4
+            },
+            "size": {
+                "value": 4
+            },
+            "move": {
+                "enable": true,
+                "speed": 1.5,
+                "direction": "bottom-right",
+                "straight": false
+            },
+            "line_linked": {
+                "enable": false
+            }
+            },
+            "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": { "enable": false },
+                "onclick": { "enable": false }
+            }
+            },
+            "retina_detect": true
+        });
+    </script>
+
+    <script src="classic_script.js"></script>
+</body>
+</html>
